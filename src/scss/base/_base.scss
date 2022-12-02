@@ -1,0 +1,22 @@
+// $fontSizeDesk:62.5%;
+$fontSizeMob:50%;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    font-size:$fontSizeMob; 
+
+}
+body{
+    background: map-get($map: $color-dark-theme, $key: 'dark_back');
+}
+h3{
+    display: inline;
+}
+#root{
+    color: white;
+}
